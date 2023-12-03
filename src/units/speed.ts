@@ -1,6 +1,6 @@
 // speed.ts
 import { type Speed } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const speed: Speed = {
     baseUnit: 'm/s',

@@ -1,6 +1,6 @@
 // area.ts
 import { type Area } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const area: Area = {
     baseUnit: 'm2',

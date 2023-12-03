@@ -1,5 +1,5 @@
 import { type Energy } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const energy: Energy = {
     baseUnit: 'J',

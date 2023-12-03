@@ -1,16 +1,16 @@
-import { type MeasurementUnits, type Measurement } from './types'
+import { type Measurement, type MeasurementUnits } from './types'
 
-class Converter<T extends Measurement> {
+class InternalConverter<T extends Measurement> {
     readonly _definitions: T
     readonly _val: number
-    _fromUnit: MeasurementUnits<T> | null = null
+    private _fromUnit: MeasurementUnits<T> | null = null
 
     constructor (numerator: number, _definitions: T) {
         this._definitions = _definitions
         this._val = numerator
     }
 
-    from<U extends MeasurementUnits<T>>(fromUnit: U): Converter<T> {
+    from<U extends MeasurementUnits<T>>(fromUnit: U): InternalConverter<T> {
         this._checkUnit(fromUnit)
         this._fromUnit = fromUnit
         return this
@@ -29,12 +29,12 @@ class Converter<T extends Measurement> {
         return result
     }
 
-    _getUnit (unit: MeasurementUnits<T>): number {
+    private _getUnit (unit: MeasurementUnits<T>): number {
         const value = (this._definitions.units[unit] as { convertValue: number }).convertValue
         return value
     }
 
-    _checkUnit (unit: MeasurementUnits<T>): void {
+    private _checkUnit (unit: MeasurementUnits<T>): void {
         const availableUnits = Object.keys(this._definitions.units) as Array<MeasurementUnits<T>>
 
         if (!availableUnits.includes(unit)) {
@@ -43,6 +43,4 @@ class Converter<T extends Measurement> {
     }
 }
 
-const createConverter = <T extends Measurement>(definitions: T) => (val: number) => new Converter(val, definitions)
-
-export default createConverter
+export default InternalConverter

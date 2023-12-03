@@ -1,5 +1,5 @@
 import { type Power } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const power: Power = {
     baseUnit: 'W',

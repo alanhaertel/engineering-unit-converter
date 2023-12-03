@@ -1,5 +1,5 @@
 import { type Force } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const force: Force = {
     baseUnit: 'N',

@@ -1,5 +1,5 @@
 import { type Length } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const length: Length = {
     baseUnit: 'm',

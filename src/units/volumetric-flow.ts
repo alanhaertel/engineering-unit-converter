@@ -1,5 +1,5 @@
 import { type VolumetricFlow } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const volumetricFlow: VolumetricFlow = {
     baseUnit: 'm3/h',

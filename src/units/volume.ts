@@ -1,5 +1,5 @@
 import { type Volume } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const volume: Volume = {
     baseUnit: 'm³',

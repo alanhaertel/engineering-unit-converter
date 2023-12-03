@@ -1,5 +1,5 @@
 import { type Viscosity } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const viscosity: Viscosity = {
     baseUnit: 'cP',
