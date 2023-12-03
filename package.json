@@ -2,9 +2,9 @@
     "name": "engineering-unit-converter",
     "repository": {
         "type": "git",
-        "url": "https://github.com/alanhaertel/engineering-unit-converter"
+        "url": "git+https://github.com/alanhaertel/engineering-unit-converter.git"
     },
-    "version": "0.0.1",
+    "version": "0.0.2",
     "keywords": [
         "units",
         "engineering",
@@ -42,5 +42,8 @@
         "vite": "^5.0.0",
         "@changesets/cli": "^2.27.1",
         "vite-plugin-dts": "^3.6.4"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
