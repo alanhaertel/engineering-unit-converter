@@ -1,5 +1,11 @@
 # engineering-unit-converter
 
+## 0.0.4
+
+### Patch Changes
+
+- Added type infering to()
+
 ## 0.0.3
 
 ### Patch Changes
