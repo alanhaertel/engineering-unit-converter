@@ -4,7 +4,7 @@
         "type": "git",
         "url": "git+https://github.com/alanhaertel/engineering-unit-converter.git"
     },
-    "version": "0.0.2",
+    "version": "0.0.3",
     "keywords": [
         "units",
         "engineering",
@@ -13,6 +13,7 @@
         "metric",
         "unit converter"
     ],
+    "license": "mit",
     "type": "module",
     "files": [
         "dist"

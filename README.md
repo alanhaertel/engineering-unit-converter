@@ -8,7 +8,7 @@ Installation
 -----
 
 ```bash
-npm engineering-unit-converter --save
+npm install engineering-unit-converter
 ```
 
 Usage
