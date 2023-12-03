@@ -1,5 +1,11 @@
 # engineering-unit-converter
 
+## 0.0.5
+
+### Patch Changes
+
+- Readme updated
+
 ## 0.0.4
 
 ### Patch Changes

@@ -14,9 +14,9 @@ npm install engineering-unit-converter
 Usage
 -----
 
-`engineering-unit-converter` uses TypeScript to infer the avalaible units, I strongly recommend to use TypeScript for make the dev experience better.
+`engineering-unit-converter` uses TypeScript to infer the available units, I strongly recommend using it for making the dev experience better.
 
-Using this library is simple, the above snippet shows a example:
+Using this library is simple, the above snippet shows an example:
 
 
 ```js
