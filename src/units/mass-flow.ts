@@ -1,5 +1,5 @@
 import { type MassFlow } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const massFlow: MassFlow = {
     baseUnit: 'kg/s',

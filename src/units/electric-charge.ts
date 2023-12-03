@@ -1,5 +1,5 @@
 import { type ElectricCharge } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const electricCharge: ElectricCharge = {
     baseUnit: 'C',

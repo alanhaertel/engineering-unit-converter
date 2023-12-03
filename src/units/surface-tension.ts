@@ -1,5 +1,5 @@
 import { type SurfaceTension } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const surfaceTension: SurfaceTension = {
     baseUnit: 'N/m',

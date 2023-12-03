@@ -1,5 +1,5 @@
 import { type Density } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const density: Density = {
     baseUnit: 'kg/m3',

@@ -1,5 +1,5 @@
 import { type Acceleration } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const acceleration: Acceleration = {
     baseUnit: 'm/s²',

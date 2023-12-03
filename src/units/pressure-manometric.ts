@@ -1,5 +1,5 @@
 import { type PressureManometric } from '../types'
-import converter from '../converter'
+import converter from '../publicConverter'
 
 const pressureManometric: PressureManometric = {
     baseUnit: 'Pa',

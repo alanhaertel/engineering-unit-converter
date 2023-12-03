@@ -1,4 +1,4 @@
-import converter from '../converter'
+import converter from '../publicConverter'
 import { type Voltage } from '../types'
 
 const voltage: Voltage = {
