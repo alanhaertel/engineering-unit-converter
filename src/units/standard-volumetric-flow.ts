@@ -10,7 +10,7 @@ const standardVolumetricFlow: StandardVolumetricFlow = {
         },
         SCFD: {
             name: 'Standard Cubic Feet per Day',
-            convertValue: 2.11888e-3 // Conversion factor from SCMD to SCFD
+            convertValue: (1 / 35.3147) // Conversion factor from SCMD to SCFD
         },
         MSCMD: {
             name: 'Million Standard Cubic Meters per Day',
@@ -22,11 +22,11 @@ const standardVolumetricFlow: StandardVolumetricFlow = {
         },
         MSCFD: {
             name: 'Million Standard Cubic Feet per Day',
-            convertValue: 2.11888e-3 * 1e3 // Conversion factor from SCMD to MSCFD
+            convertValue: (1 / 35.3147) * 1e3 // Conversion factor from SCMD to MSCFD
         },
         MMSCFD: {
             name: 'Million Million Standard Cubic Feet per Day',
-            convertValue: 2.11888e-3 * 1e6 // Conversion factor from SCMD to MMSCFD
+            convertValue: (1 / 35.3147) * 1e6 // Conversion factor from SCMD to MMSCFD
         }
     }
 }

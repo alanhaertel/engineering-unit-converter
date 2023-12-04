@@ -10,23 +10,23 @@ const viscosity: Viscosity = {
         },
         Pa·s: {
             name: 'Pascal second',
-            convertValue: 0.001 // Conversion factor from cP to Pa·s
+            convertValue: 1 / 0.001
         },
-        'lb·ft/s·h': {
-            name: 'Pound-foot per second-hour',
-            convertValue: 2.41909e-7 // Conversion factor from cP to lb·ft/s·h
+        'lb/ft·s': {
+            name: 'Pound per second-foot',
+            convertValue: 1 / 0.000671968994813
         },
-        'kg/m·s·h': {
+        'kg/m·s': {
             name: 'Kilogram per meter-second-hour',
-            convertValue: 0.001 / 3600 // Conversion factor from cP to kg/m·s·h
+            convertValue: 1 / 0.001
         },
-        'lb·ft/s·ft': {
-            name: 'Pound-foot per second-foot',
-            convertValue: 2.41909e-7 / 3600 // Conversion factor from cP to lb·ft/s·ft
+        'lb/ft·h': {
+            name: 'Pound per hour-foot',
+            convertValue: 1 / 2.4190883105
         },
-        'kg/m·s·m': {
+        'kg/m·h': {
             name: 'Kilogram per meter-second-meter',
-            convertValue: 0.001 / 3600 / 3600 // Conversion factor from cP to kg/m·s·m
+            convertValue: 1 / 3.6
         }
     }
 }

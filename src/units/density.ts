@@ -10,19 +10,19 @@ const density: Density = {
         },
         'lb/ft3': {
             name: 'Pound per cubic foot',
-            convertValue: 0.0160185 // Conversion factor from kg/m3 to lb/ft3
+            convertValue: 1 / 0.062427962
         },
         'g/cm3': {
             name: 'Gram per cubic centimeter',
-            convertValue: 0.001 // Conversion factor from kg/m3 to g/cm3
+            convertValue: 0.001
         },
         'kg/ft3': {
             name: 'Kilogram per cubic foot',
-            convertValue: 1 / 16.0185 // Conversion factor from lb/ft3 to kg/ft3
+            convertValue: 1 / 0.0283168
         },
         'lb/m3': {
             name: 'Pound per cubic meter',
-            convertValue: 0.0160185 / 1000 // Conversion factor from lb/ft³ to lb/m³
+            convertValue: 1 / 2.20462
         }
     }
 }

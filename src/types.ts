@@ -67,10 +67,10 @@ export type Density = {
 export type ViscosityUnits = {
     cP: UnitsValues
     'Pa·s': UnitsValues
-    'lb·ft/s·h': UnitsValues
-    'kg/m·s·h': UnitsValues
-    'lb·ft/s·ft': UnitsValues
-    'kg/m·s·m': UnitsValues
+    'lb/ft·s': UnitsValues
+    'kg/m·h': UnitsValues
+    'lb/ft·h': UnitsValues
+    'kg/m·s': UnitsValues
 }
 
 export type Viscosity = {
