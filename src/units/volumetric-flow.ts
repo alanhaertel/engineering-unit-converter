@@ -10,35 +10,35 @@ const volumetricFlow: VolumetricFlow = {
         },
         'm3/day': {
             name: 'Cubic meter per day',
-            convertValue: 1 / 24 // Assuming 1 day = 24 hours
+            convertValue: 1 / 24
         },
         'ft3/h': {
             name: 'Cubic foot per hour',
-            convertValue: 0.0283168 // Conversion factor from cubic meter to cubic foot
+            convertValue: 0.0283168
         },
         'ft3/day': {
             name: 'Cubic foot per day',
-            convertValue: 0.0283168 / 24 // Conversion factor from cubic meter to cubic foot, assuming 1 day = 24 hours
+            convertValue: 0.0283168 / 24
         },
         'gal/h': {
             name: 'Gallon per hour',
-            convertValue: 0.00378541 // Conversion factor from cubic meter to gallon
+            convertValue: 0.00378541
         },
         'gal/day': {
             name: 'Gallon per day',
-            convertValue: 0.00378541 / 24 // Conversion factor from cubic meter to gallon, assuming 1 day = 24 hours
+            convertValue: 0.00378541 / 24
         },
         'm3/s': {
             name: 'Cubic meter per second',
-            convertValue: 1 / 3600 // Assuming 1 hour = 3600 seconds
+            convertValue: 3600
         },
         'ft3/s': {
             name: 'Cubic foot per second',
-            convertValue: 0.0283168 / 3600 // Conversion factor from cubic meter to cubic foot, assuming 1 hour = 3600 seconds
+            convertValue: 1 / 0.00980963
         },
         'gal/s': {
             name: 'Gallon per second',
-            convertValue: 0.00378541 / 3600 // Conversion factor from cubic meter to gallon, assuming 1 hour = 3600 seconds
+            convertValue: 0.00378541 * 3600
         }
     }
 }

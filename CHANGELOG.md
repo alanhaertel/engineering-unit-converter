@@ -1,5 +1,11 @@
 # engineering-unit-converter
 
+## 0.0.6
+
+### Patch Changes
+
+- mass-flow standard volumetric-flow viscosity density pressure manometric mass fixed
+
 ## 0.0.5
 
 ### Patch Changes

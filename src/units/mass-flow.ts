@@ -10,11 +10,11 @@ const massFlow: MassFlow = {
         },
         'kg/h': {
             name: 'Kilogram per hour',
-            convertValue: 1 / 3600 // 1 hour = 3600 seconds
+            convertValue: 1 / 3600
         },
         'lb/day': {
             name: 'Pound per day',
-            convertValue: 0.000453592 * (1 / 86400) // 1 lb = 0.000453592 kg, 1 day = 86400 seconds
+            convertValue: 1 / 190479
         },
         'g/s': {
             name: 'Gram per second',
@@ -22,23 +22,23 @@ const massFlow: MassFlow = {
         },
         'lb/h': {
             name: 'Pound per hour',
-            convertValue: 0.000453592
+            convertValue: 1 / (190479 / 24)
         },
         'ton/day': {
             name: 'Ton per day',
-            convertValue: 1000 * (1 / 86400) // 1 ton = 1000 kg
+            convertValue: 1 / (34762.5 / 365)
         },
         'oz/min': {
             name: 'Ounce per minute',
-            convertValue: 0.0283495 / 60 // 1 oz = 0.0283495 kg, 1 minute = 60 seconds
+            convertValue: 1 / 2116.4394433764
         },
         'ton/year': {
-            name: 'Ton per year', // Adjust the name as needed
-            convertValue: 1000 / 86400 / 365 // Assuming 1 ton/year = 1000 kg / 86400 seconds / 365 days
+            name: 'Ton per year',
+            convertValue: 1 / 34762.5
         },
         'lb/s': {
             name: 'Pound per second',
-            convertValue: 0.000453592
+            convertValue: 1 / (190479 / 86400)
         },
         'kg/day': {
             name: 'Kilogram per day',

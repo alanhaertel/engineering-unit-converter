@@ -18,11 +18,10 @@ Usage
 
 Using this library is simple, the above snippet shows an example:
 
-
 ```js
 import { massFlow } from 'engineering-unit-converter'
 const newValue = massFlow(65000).from('lb/day').to('kg/h')
-console.log(newValue) //1.2284783333333333
+console.log(newValue) //1228.4818798922718
 ```
 
 Available units
