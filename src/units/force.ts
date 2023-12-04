@@ -14,7 +14,7 @@ const force: Force = {
         },
         lbf: {
             name: 'Pound-force',
-            convertValue: 4.44822 // Conversion factor from N to lbf
+            convertValue: 1 / 0.224809 // Conversion factor from N to lbf
         },
         kgf: {
             name: 'Kilogram-force',

@@ -1,5 +1,11 @@
 # engineering-unit-converter
 
+## 0.0.7
+
+### Patch Changes
+
+- fixed all units, types added
+
 ## 0.0.6
 
 ### Patch Changes

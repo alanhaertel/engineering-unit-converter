@@ -11,27 +11,27 @@ const speed: Speed = {
         },
         'km/h': {
             name: 'Kilometer per hour',
-            convertValue: 0.277778 // Conversion factor from m/s to km/h
+            convertValue: 0.277778
         },
         'ft/s': {
             name: 'Foot per second',
-            convertValue: 0.3048 // Conversion factor from m/s to ft/s
+            convertValue: 0.3048
         },
         'mi/h': {
             name: 'Mile per hour',
-            convertValue: 0.44704 // Conversion factor from m/s to mi/h
+            convertValue: 0.44704
         },
         knot: {
             name: 'Knot',
-            convertValue: 0.514444 // Conversion factor from m/s to knots
+            convertValue: 0.514444
         },
         'm/h': {
             name: 'Meter per hour',
-            convertValue: 1 / 3600 // Conversion factor from m/s to m/h
+            convertValue: 1 / 3600
         },
         'ft/h': {
             name: 'Foot per hour',
-            convertValue: 0.3048 / 3600 // Conversion factor from m/s to ft/h
+            convertValue: 1 / 11811
         }
     }
 }

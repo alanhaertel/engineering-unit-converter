@@ -4,6 +4,10 @@ import converter from '../publicConverter'
 const length: Length = {
     baseUnit: 'm',
     units: {
+        m: {
+            name: 'Meter',
+            convertValue: 1
+        },
         mm: {
             name: 'Millimeter',
             convertValue: 0.001 // Conversion factor from m to mm
@@ -11,10 +15,6 @@ const length: Length = {
         cm: {
             name: 'Centimeter',
             convertValue: 0.01 // Conversion factor from m to cm
-        },
-        m: {
-            name: 'Meter',
-            convertValue: 1
         },
         in: {
             name: 'Inch',

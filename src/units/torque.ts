@@ -1,7 +1,7 @@
-import { type SurfaceTension } from '../types'
+import { type Torque } from '../types'
 import converter from '../publicConverter'
 
-const surfaceTension: SurfaceTension = {
+const torque: Torque = {
     baseUnit: 'N/m',
     units: {
         'N/m': {
@@ -10,17 +10,17 @@ const surfaceTension: SurfaceTension = {
         },
         'dyn/cm': {
             name: 'Dyne per Centimeter',
-            convertValue: 0.001 // Conversion factor from N/m to dyn/cm
+            convertValue: 0.001
         },
         'lbf/ft': {
             name: 'Pound-force per Foot',
-            convertValue: 0.3048 // Conversion factor from N/m to lbf/ft
+            convertValue: 1.35582
         },
         'mN/m': {
             name: 'Millinewton per Meter',
-            convertValue: 0.001 // Conversion factor from N/m to mN/m
+            convertValue: 0.001
         }
     }
 }
 
-export default converter(surfaceTension)
+export default converter(torque)

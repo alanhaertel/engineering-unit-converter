@@ -165,16 +165,16 @@ export type Area = {
 }
 
 export type VolumeUnits = {
-    'm³': UnitsValues
+    'm3': UnitsValues
     'liter': UnitsValues
-    'cm³': UnitsValues
-    'mm³': UnitsValues
+    'cm3': UnitsValues
+    'mm3': UnitsValues
     'gallon': UnitsValues
     'quart': UnitsValues
 }
 
 export type Volume = {
-    baseUnit: 'm³'
+    baseUnit: 'm3'
     units: VolumeUnits
 }
 
@@ -190,16 +190,16 @@ export type Force = {
     units: ForceUnits
 }
 
-export type SurfaceTensionUnits = {
+export type TorqueUnits = {
     'N/m': UnitsValues
     'dyn/cm': UnitsValues
     'lbf/ft': UnitsValues
     'mN/m': UnitsValues
 }
 
-export type SurfaceTension = {
+export type Torque = {
     baseUnit: 'N/m'
-    units: SurfaceTensionUnits
+    units: TorqueUnits
 }
 
 export type TimeUnits = {
@@ -241,15 +241,14 @@ export type ElectricCurrent = {
 }
 
 export type AccelerationUnits = {
-    'm/s²': UnitsValues
-    'km/s²': UnitsValues
-    'cm/s²': UnitsValues
-    'g': UnitsValues
-    'ft/s²': UnitsValues
+    'm/s2': UnitsValues
+    'km/s2': UnitsValues
+    'cm/s2': UnitsValues
+    'ft/s2': UnitsValues
 }
 
 export type Acceleration = {
-    baseUnit: 'm/s²'
+    baseUnit: 'm/s2'
     units: AccelerationUnits
 }
 
@@ -298,6 +297,6 @@ export type StandardVolumetricFlow = {
 }
 
 export type Measurement = Voltage | MassFlow | VolumetricFlow | Density | Viscosity | Length | Mass | Speed | Power | Energy | Area | Volume | Force |
-SurfaceTension | Time | ElectricCharge | ElectricCurrent | Acceleration | Pressure | PressureManometric | StandardVolumetricFlow
+Torque | Time | ElectricCharge | ElectricCurrent | Acceleration | Pressure | PressureManometric | StandardVolumetricFlow
 
 export type MeasurementUnits<T extends Measurement> = T extends { units: infer U } ? keyof U : never

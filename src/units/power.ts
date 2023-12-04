@@ -18,11 +18,11 @@ const power: Power = {
         },
         'BTU/h': {
             name: 'British Thermal Unit per hour',
-            convertValue: 3.41214 // Conversion factor from W to BTU/h
+            convertValue: 1 / 3.41214 // Conversion factor from W to BTU/h
         },
         'cal/s': {
             name: 'Calorie per second',
-            convertValue: 239.006 // Conversion factor from W to cal/s
+            convertValue: 1 / 0.23884589662749595 // Conversion factor from W to cal/s
         }
     }
 }

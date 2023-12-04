@@ -2,27 +2,23 @@ import { type Acceleration } from '../types'
 import converter from '../publicConverter'
 
 const acceleration: Acceleration = {
-    baseUnit: 'm/s²',
+    baseUnit: 'm/s2',
     units: {
-        'm/s²': {
+        'm/s2': {
             name: 'Meter per Second Squared',
             convertValue: 1
         },
-        'km/s²': {
+        'km/s2': {
             name: 'Kilometer per Second Squared',
-            convertValue: 1e6 // Conversion factor from m/s² to km/s²
+            convertValue: 1000
         },
-        'cm/s²': {
+        'cm/s2': {
             name: 'Centimeter per Second Squared',
-            convertValue: 0.0001 // Conversion factor from m/s² to cm/s²
+            convertValue: 1 / 100
         },
-        g: {
-            name: 'Gravity',
-            convertValue: 9.80665 // Standard gravity on Earth, in m/s²
-        },
-        'ft/s²': {
+        'ft/s2': {
             name: 'Foot per Second Squared',
-            convertValue: 0.3048 // Conversion factor from m/s² to ft/s²
+            convertValue: 1 / 3.28084
         }
     }
 }

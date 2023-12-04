@@ -27,11 +27,11 @@ const area: Area = {
         },
         sqft: {
             name: 'Square Foot',
-            convertValue: 1 / 10.7639 // Conversion factor from m2 to sqft
+            convertValue: 1 / 10.763888889 // Conversion factor from m2 to sqft
         },
         sqyd: {
             name: 'Square Yard',
-            convertValue: 1 / 1.19599 // Conversion factor from m2 to sqyd
+            convertValue: 1 / 1.1959876543333338716 // Conversion factor from m2 to sqyd
         },
         acre: {
             name: 'Acre',

@@ -2,31 +2,31 @@ import { type Volume } from '../types'
 import converter from '../publicConverter'
 
 const volume: Volume = {
-    baseUnit: 'm³',
+    baseUnit: 'm3',
     units: {
-        'm³': {
+        m3: {
             name: 'Cubic Meter',
             convertValue: 1
         },
         liter: {
             name: 'Liter',
-            convertValue: 0.001 // Conversion factor from m³ to liters
+            convertValue: 0.001
         },
-        'cm³': {
+        cm3: {
             name: 'Cubic Centimeter',
-            convertValue: 0.000001 // Conversion factor from m³ to cm³
+            convertValue: 1e-6
         },
-        'mm³': {
+        mm3: {
             name: 'Cubic Millimeter',
-            convertValue: 1e-9 // Conversion factor from m³ to mm³
+            convertValue: 1e-9
         },
         gallon: {
             name: 'Gallon',
-            convertValue: 0.00378541 // Conversion factor from m³ to gallons
+            convertValue: 0.00454609
         },
         quart: {
             name: 'Quart',
-            convertValue: 0.000946353 // Conversion factor from m³ to quarts
+            convertValue: 1 / 879.877
         }
     }
 }
