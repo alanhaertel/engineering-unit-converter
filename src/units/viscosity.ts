@@ -8,23 +8,23 @@ const viscosity: Viscosity = {
             name: 'Centipoise',
             convertValue: 1
         },
-        Pa·s: {
+        Pas: {
             name: 'Pascal second',
             convertValue: 1 / 0.001
         },
-        'lb/ft·s': {
+        'lb/fts': {
             name: 'Pound per second-foot',
             convertValue: 1 / 0.000671968994813
         },
-        'kg/m·s': {
+        'kg/ms': {
             name: 'Kilogram per meter-second-hour',
             convertValue: 1 / 0.001
         },
-        'lb/ft·h': {
+        'lb/fth': {
             name: 'Pound per hour-foot',
             convertValue: 1 / 2.4190883105
         },
-        'kg/m·h': {
+        'kg/mh': {
             name: 'Kilogram per meter-second-meter',
             convertValue: 1 / 3.6
         }
