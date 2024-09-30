@@ -1,5 +1,11 @@
 # engineering-unit-converter
 
+## 0.0.9
+
+### Patch Changes
+
+- added temperature. fixed torque conversion
+
 ## 0.0.8
 
 ### Patch Changes
