@@ -1,5 +1,11 @@
 # engineering-unit-converter
 
+## 0.0.10
+
+### Patch Changes
+
+- bump version
+
 ## 0.0.9
 
 ### Patch Changes
