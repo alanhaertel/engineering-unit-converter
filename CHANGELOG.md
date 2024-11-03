@@ -1,5 +1,11 @@
 # engineering-unit-converter
 
+## 0.0.11
+
+### Patch Changes
+
+- added particle diameter to length, mph to speed and km to length
+
 ## 0.0.10
 
 ### Patch Changes

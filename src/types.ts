@@ -81,10 +81,13 @@ export type Viscosity = {
 
 export type LengthUnits = {
   mm: UnitsValues
+  km: UnitsValues
   cm: UnitsValues
   m: UnitsValues
   in: UnitsValues
   ft: UnitsValues
+  um: UnitsValues
+  nm: UnitsValues
 }
 
 export type Length = {
@@ -113,6 +116,7 @@ export type SpeedUnits = {
   'knot': UnitsValues
   'm/h': UnitsValues
   'ft/h': UnitsValues
+  'mph': UnitsValues
 }
 
 export type Speed = {
