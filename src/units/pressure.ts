@@ -66,7 +66,11 @@ const pressure: Pressure = {
       name: 'Kilogram per Square Centimeter',
       convertValue: 98066.5,
       offset: -1 // Conversion factor from Pa to kg/cm²
-    }
+    },
+    ksi: {
+      name: '1000 Pound per Square Inch',
+      convertValue: 6894.76 * 1000 // Conversion factor from Pa to psi
+    },
   }
 }
 

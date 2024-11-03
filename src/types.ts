@@ -210,14 +210,16 @@ export type Torque = {
 }
 
 export type TimeUnits = {
-  's': UnitsValues
+  'sec': UnitsValues
   'min': UnitsValues
   'hr': UnitsValues
   'day': UnitsValues
+  'month': UnitsValues
+  'year': UnitsValues
 }
 
 export type Time = {
-  baseUnit: 's'
+  baseUnit: 'sec'
   units: TimeUnits
 }
 
@@ -266,6 +268,7 @@ export type PressureUnits = {
   'bar': UnitsValues
   'atm': UnitsValues
   'psi': UnitsValues
+  'ksi': UnitsValues
   'kg/cm2': UnitsValues
   'Pag': UnitsValues
   'kPag': UnitsValues

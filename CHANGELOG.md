@@ -1,5 +1,11 @@
 # engineering-unit-converter
 
+## 0.0.12
+
+### Patch Changes
+
+- added ksi and month/year
+
 ## 0.0.11
 
 ### Patch Changes
