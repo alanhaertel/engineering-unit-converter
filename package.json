@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/alanhaertel/engineering-unit-converter.git"
   },
-  "version": "0.0.12",
+  "version": "0.0.13",
   "keywords": [
     "units",
     "engineering",

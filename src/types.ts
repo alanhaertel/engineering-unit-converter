@@ -284,6 +284,30 @@ export type Pressure = {
   units: PressureUnits
 }
 
+export type PressurePerLengthUnits = {
+  'Pa/m': UnitsValues
+  'Pa/km': UnitsValues
+  'kPa/m': UnitsValues
+  'bar/m': UnitsValues
+  'bar/km': UnitsValues
+  'psi/m': UnitsValues
+  'psi/ft': UnitsValues
+  'atm/m': UnitsValues
+  'atm/km': UnitsValues
+  'kg/cm2/m': UnitsValues
+  'kg/cm2/km': UnitsValues
+  'barg/m': UnitsValues
+  'psig/m': UnitsValues
+  'psig/ft': UnitsValues
+  'kg/cm2g/m': UnitsValues
+  'kg/cm2g/km': UnitsValues
+}
+
+export type PressurePerLength = {
+  baseUnit: 'Pa/m'
+  units: PressurePerLengthUnits
+}
+
 export type PressureManometricUnits = {
   'Pag': UnitsValues
   'kPag': UnitsValues
@@ -327,6 +351,6 @@ export type Temperature = {
 }
 
 export type Measurement = Voltage | MassFlow | VolumetricFlow | Density | Viscosity | Length | Mass | Speed | Power | Energy | Area | Volume | Force |
-  Torque | Time | ElectricCharge | ElectricCurrent | Acceleration | Pressure | PressureManometric | StandardVolumetricFlow | Temperature
+  Torque | Time | ElectricCharge | ElectricCurrent | Acceleration | Pressure | PressureManometric | StandardVolumetricFlow | Temperature | PressurePerLength
 
 export type MeasurementUnits<T extends Measurement> = T extends { units: infer U } ? keyof U : never

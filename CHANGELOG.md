@@ -1,5 +1,11 @@
 # engineering-unit-converter
 
+## 0.0.13
+
+### Patch Changes
+
+- added pressure per length
+
 ## 0.0.12
 
 ### Patch Changes
