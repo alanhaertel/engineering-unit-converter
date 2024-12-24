@@ -16,6 +16,10 @@ const pressurePerLength: PressurePerLength = {
       name: 'Kilopascal per Meter',
       convertValue: 1000, // 1 kPa = 1000 Pa
     },
+    'kPa/km': {
+      name: 'Kilopascal per Meter',
+      convertValue: 1,
+    },
     'bar/m': {
       name: 'Bar per Meter',
       convertValue: 1e5, // 1 bar = 100,000 Pa

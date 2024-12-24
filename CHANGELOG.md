@@ -1,5 +1,11 @@
 # engineering-unit-converter
 
+## 0.0.14
+
+### Patch Changes
+
+- added kpa/km
+
 ## 0.0.13
 
 ### Patch Changes

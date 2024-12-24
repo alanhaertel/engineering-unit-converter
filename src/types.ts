@@ -101,6 +101,7 @@ export type MassUnits = {
   lb: UnitsValues
   oz: UnitsValues
   ton: UnitsValues
+  mg: UnitsValues
 }
 
 export type Mass = {
@@ -176,6 +177,8 @@ export type VolumeUnits = {
   'mm3': UnitsValues
   'gallon': UnitsValues
   'quart': UnitsValues
+  'ft3': UnitsValues
+  'in3': UnitsValues
 }
 
 export type Volume = {
@@ -288,6 +291,7 @@ export type PressurePerLengthUnits = {
   'Pa/m': UnitsValues
   'Pa/km': UnitsValues
   'kPa/m': UnitsValues
+  'kPa/km': UnitsValues
   'bar/m': UnitsValues
   'bar/km': UnitsValues
   'psi/m': UnitsValues
